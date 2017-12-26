@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D74DA3F81FF1F3B1001E7561 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DA3F71FF1F3B1001E7561 /* AppDelegate.m */; };
+		D74DA3FB1FF1F3B1001E7561 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DA3FA1FF1F3B1001E7561 /* ViewController.m */; };
+		D74DA3FE1FF1F3B1001E7561 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74DA3FC1FF1F3B1001E7561 /* Main.storyboard */; };
+		D74DA4001FF1F3B1001E7561 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D74DA3FF1FF1F3B1001E7561 /* Assets.xcassets */; };
+		D74DA4031FF1F3B1001E7561 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D74DA4011FF1F3B1001E7561 /* LaunchScreen.storyboard */; };
+		D74DA4061FF1F3B1001E7561 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DA4051FF1F3B1001E7561 /* main.m */; };
+		D74DA4101FF1F3B1001E7561 /* GDPRTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DA40F1FF1F3B1001E7561 /* GDPRTests.m */; };
+		D74DA41B1FF1F3B1001E7561 /* GDPRUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D74DA41A1FF1F3B1001E7561 /* GDPRUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D74DA40C1FF1F3B1001E7561 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D74DA3EB1FF1F3B1001E7561 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D74DA3F21FF1F3B1001E7561;
+			remoteInfo = GDPR;
+		};
+		D74DA4171FF1F3B1001E7561 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D74DA3EB1FF1F3B1001E7561 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D74DA3F21FF1F3B1001E7561;
+			remoteInfo = GDPR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D74DA3F31FF1F3B1001E7561 /* GDPR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GDPR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74DA3F61FF1F3B1001E7561 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D74DA3F71FF1F3B1001E7561 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D74DA3F91FF1F3B1001E7561 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D74DA3FA1FF1F3B1001E7561 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D74DA3FD1FF1F3B1001E7561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D74DA3FF1FF1F3B1001E7561 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D74DA4021FF1F3B1001E7561 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D74DA4041FF1F3B1001E7561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74DA4051FF1F3B1001E7561 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D74DA40B1FF1F3B1001E7561 /* GDPRTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDPRTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74DA40F1FF1F3B1001E7561 /* GDPRTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDPRTests.m; sourceTree = "<group>"; };
+		D74DA4111FF1F3B1001E7561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D74DA4161FF1F3B1001E7561 /* GDPRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GDPRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D74DA41A1FF1F3B1001E7561 /* GDPRUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GDPRUITests.m; sourceTree = "<group>"; };
+		D74DA41C1FF1F3B1001E7561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D74DA3F01FF1F3B1001E7561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74DA4081FF1F3B1001E7561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74DA4131FF1F3B1001E7561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D74DA3EA1FF1F3B1001E7561 = {
+			isa = PBXGroup;
+			children = (
+				D74DA3F51FF1F3B1001E7561 /* GDPR */,
+				D74DA40E1FF1F3B1001E7561 /* GDPRTests */,
+				D74DA4191FF1F3B1001E7561 /* GDPRUITests */,
+				D74DA3F41FF1F3B1001E7561 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D74DA3F41FF1F3B1001E7561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D74DA3F31FF1F3B1001E7561 /* GDPR.app */,
+				D74DA40B1FF1F3B1001E7561 /* GDPRTests.xctest */,
+				D74DA4161FF1F3B1001E7561 /* GDPRUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D74DA3F51FF1F3B1001E7561 /* GDPR */ = {
+			isa = PBXGroup;
+			children = (
+				D74DA3F61FF1F3B1001E7561 /* AppDelegate.h */,
+				D74DA3F71FF1F3B1001E7561 /* AppDelegate.m */,
+				D74DA3F91FF1F3B1001E7561 /* ViewController.h */,
+				D74DA3FA1FF1F3B1001E7561 /* ViewController.m */,
+				D74DA3FC1FF1F3B1001E7561 /* Main.storyboard */,
+				D74DA3FF1FF1F3B1001E7561 /* Assets.xcassets */,
+				D74DA4011FF1F3B1001E7561 /* LaunchScreen.storyboard */,
+				D74DA4041FF1F3B1001E7561 /* Info.plist */,
+				D74DA4051FF1F3B1001E7561 /* main.m */,
+			);
+			path = GDPR;
+			sourceTree = "<group>";
+		};
+		D74DA40E1FF1F3B1001E7561 /* GDPRTests */ = {
+			isa = PBXGroup;
+			children = (
+				D74DA40F1FF1F3B1001E7561 /* GDPRTests.m */,
+				D74DA4111FF1F3B1001E7561 /* Info.plist */,
+			);
+			path = GDPRTests;
+			sourceTree = "<group>";
+		};
+		D74DA4191FF1F3B1001E7561 /* GDPRUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D74DA41A1FF1F3B1001E7561 /* GDPRUITests.m */,
+				D74DA41C1FF1F3B1001E7561 /* Info.plist */,
+			);
+			path = GDPRUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D74DA3F21FF1F3B1001E7561 /* GDPR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74DA41F1FF1F3B1001E7561 /* Build configuration list for PBXNativeTarget "GDPR" */;
+			buildPhases = (
+				D74DA3EF1FF1F3B1001E7561 /* Sources */,
+				D74DA3F01FF1F3B1001E7561 /* Frameworks */,
+				D74DA3F11FF1F3B1001E7561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GDPR;
+			productName = GDPR;
+			productReference = D74DA3F31FF1F3B1001E7561 /* GDPR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D74DA40A1FF1F3B1001E7561 /* GDPRTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74DA4221FF1F3B1001E7561 /* Build configuration list for PBXNativeTarget "GDPRTests" */;
+			buildPhases = (
+				D74DA4071FF1F3B1001E7561 /* Sources */,
+				D74DA4081FF1F3B1001E7561 /* Frameworks */,
+				D74DA4091FF1F3B1001E7561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D74DA40D1FF1F3B1001E7561 /* PBXTargetDependency */,
+			);
+			name = GDPRTests;
+			productName = GDPRTests;
+			productReference = D74DA40B1FF1F3B1001E7561 /* GDPRTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D74DA4151FF1F3B1001E7561 /* GDPRUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D74DA4251FF1F3B1001E7561 /* Build configuration list for PBXNativeTarget "GDPRUITests" */;
+			buildPhases = (
+				D74DA4121FF1F3B1001E7561 /* Sources */,
+				D74DA4131FF1F3B1001E7561 /* Frameworks */,
+				D74DA4141FF1F3B1001E7561 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D74DA4181FF1F3B1001E7561 /* PBXTargetDependency */,
+			);
+			name = GDPRUITests;
+			productName = GDPRUITests;
+			productReference = D74DA4161FF1F3B1001E7561 /* GDPRUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D74DA3EB1FF1F3B1001E7561 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = EM;
+				TargetAttributes = {
+					D74DA3F21FF1F3B1001E7561 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					D74DA40A1FF1F3B1001E7561 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D74DA3F21FF1F3B1001E7561;
+					};
+					D74DA4151FF1F3B1001E7561 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D74DA3F21FF1F3B1001E7561;
+					};
+				};
+			};
+			buildConfigurationList = D74DA3EE1FF1F3B1001E7561 /* Build configuration list for PBXProject "GDPR" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D74DA3EA1FF1F3B1001E7561;
+			productRefGroup = D74DA3F41FF1F3B1001E7561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D74DA3F21FF1F3B1001E7561 /* GDPR */,
+				D74DA40A1FF1F3B1001E7561 /* GDPRTests */,
+				D74DA4151FF1F3B1001E7561 /* GDPRUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D74DA3F11FF1F3B1001E7561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74DA4031FF1F3B1001E7561 /* LaunchScreen.storyboard in Resources */,
+				D74DA4001FF1F3B1001E7561 /* Assets.xcassets in Resources */,
+				D74DA3FE1FF1F3B1001E7561 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74DA4091FF1F3B1001E7561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74DA4141FF1F3B1001E7561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D74DA3EF1FF1F3B1001E7561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74DA3FB1FF1F3B1001E7561 /* ViewController.m in Sources */,
+				D74DA4061FF1F3B1001E7561 /* main.m in Sources */,
+				D74DA3F81FF1F3B1001E7561 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74DA4071FF1F3B1001E7561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74DA4101FF1F3B1001E7561 /* GDPRTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D74DA4121FF1F3B1001E7561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D74DA41B1FF1F3B1001E7561 /* GDPRUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D74DA40D1FF1F3B1001E7561 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D74DA3F21FF1F3B1001E7561 /* GDPR */;
+			targetProxy = D74DA40C1FF1F3B1001E7561 /* PBXContainerItemProxy */;
+		};
+		D74DA4181FF1F3B1001E7561 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D74DA3F21FF1F3B1001E7561 /* GDPR */;
+			targetProxy = D74DA4171FF1F3B1001E7561 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D74DA3FC1FF1F3B1001E7561 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D74DA3FD1FF1F3B1001E7561 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D74DA4011FF1F3B1001E7561 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D74DA4021FF1F3B1001E7561 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D74DA41D1FF1F3B1001E7561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D74DA41E1FF1F3B1001E7561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D74DA4201FF1F3B1001E7561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GDPR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ttjj.com.GDPR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D74DA4211FF1F3B1001E7561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GDPR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ttjj.com.GDPR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D74DA4231FF1F3B1001E7561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GDPRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ttjj.com.GDPRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDPR.app/GDPR";
+			};
+			name = Debug;
+		};
+		D74DA4241FF1F3B1001E7561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GDPRTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ttjj.com.GDPRTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDPR.app/GDPR";
+			};
+			name = Release;
+		};
+		D74DA4261FF1F3B1001E7561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GDPRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ttjj.com.GDPRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GDPR;
+			};
+			name = Debug;
+		};
+		D74DA4271FF1F3B1001E7561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GDPRUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = www.ttjj.com.GDPRUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GDPR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D74DA3EE1FF1F3B1001E7561 /* Build configuration list for PBXProject "GDPR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74DA41D1FF1F3B1001E7561 /* Debug */,
+				D74DA41E1FF1F3B1001E7561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74DA41F1FF1F3B1001E7561 /* Build configuration list for PBXNativeTarget "GDPR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74DA4201FF1F3B1001E7561 /* Debug */,
+				D74DA4211FF1F3B1001E7561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74DA4221FF1F3B1001E7561 /* Build configuration list for PBXNativeTarget "GDPRTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74DA4231FF1F3B1001E7561 /* Debug */,
+				D74DA4241FF1F3B1001E7561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D74DA4251FF1F3B1001E7561 /* Build configuration list for PBXNativeTarget "GDPRUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D74DA4261FF1F3B1001E7561 /* Debug */,
+				D74DA4271FF1F3B1001E7561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D74DA3EB1FF1F3B1001E7561 /* Project object */;
+}
